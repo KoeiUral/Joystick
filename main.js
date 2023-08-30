@@ -18,7 +18,7 @@ function windowResized() {
 }
 
 function preload() {
-    engineFont = loadFont('font/INVASION2000.ttf');
+    engineFont = loadFont('font/INVASION2000.TTF');
 }
 
 function setup() {
