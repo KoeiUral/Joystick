@@ -3,6 +3,7 @@ let DEFAULT_W = 800;
 let DEFAULT_H = 600;
 let engineFont;
 let device;
+let canvas;
 let maxW;
 let maxH;
 
