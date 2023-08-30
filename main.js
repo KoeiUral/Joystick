@@ -3,19 +3,18 @@ let DEFAULT_W = 800;
 let DEFAULT_H = 600;
 let engineFont;
 let device;
-let canvas;
 let maxW;
 let maxH;
 
 
 function windowResized() {
-    maxW = min(windowWidth, DEFAULT_W);
+    /*maxW = min(windowWidth, DEFAULT_W);
     maxH = min(windowHeight, DEFAULT_H);
     let xScale = maxW / canvas.width;
     let yScale = maxH / canvas.height;
 
     resizeCanvas(maxW, maxH, false);
-    displayText();
+    displayText();*/
 }
 
 function preload() {
